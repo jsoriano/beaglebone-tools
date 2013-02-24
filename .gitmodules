@@ -1,6 +1,6 @@
-[submodule "src/angstrom-setup-scripts"]
-	path = src/angstrom-setup-scripts
-	url = git://github.com/Angstrom-distribution/setup-scripts.git
 [submodule "src/linux"]
 	path = src/linux
 	url = git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git
+[submodule "src/angstrom-meta-ti"]
+	path = src/angstrom-meta-ti
+	url = git://github.com/Angstrom-distribution/meta-ti.git
