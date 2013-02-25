@@ -5,7 +5,7 @@ export LANG=C
 KERNEL_SOURCE=src/linux
 META_TI_SOURCE=src/angstrom-meta-ti
 DEFAULT_CONFIG=$META_TI_SOURCE/recipes-kernel/linux/linux-mainline-3.2/beagleboard/defconfig
-CPUS=`grep "^core id" /proc/cpuinfo | sort -u | wc -l`
+CPUS=`grep "^processor" /proc/cpuinfo | wc -l`
 
 BUILD_OPTIONS="CROSS_COMPILE=arm-linux-gnueabi- ARCH=arm"
 
