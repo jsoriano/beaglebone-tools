@@ -1,8 +1,6 @@
 #!/bin/bash
 
-UBOOT_SOURCE=src/u-boot
-
-BUILD_OPTIONS="CROSS_COMPILE=arm-linux-gnueabi- ARCH=arm"
+. ./config.sh
 
 for patch in patches/u-boot/*; do
 patch -N -d $UBOOT_SOURCE -p1 < $patch
