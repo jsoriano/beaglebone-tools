@@ -7,3 +7,6 @@
 [submodule "src/u-boot"]
 	path = src/u-boot
 	url = git://git.denx.de/u-boot.git
+[submodule "src/busybox"]
+	path = src/busybox
+	url = git://busybox.net/busybox.git
